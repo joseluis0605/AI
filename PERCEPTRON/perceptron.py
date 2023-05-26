@@ -20,13 +20,13 @@ X = np.array([[1, 0, 1, 0, 0, 0],
 T = [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
 
 # Inicializar los pesos con ceros
-w = np.array([0.2] * len(X[0]))
+w = np.array([0] * len(X[0]))
 
 # Definir el umbral
-b = 0.2
+b = 1
 
 # Definir la tasa de aprendizaje
-alfa = 0.3
+alfa = 1
 
 
 # Definir la función de activación
