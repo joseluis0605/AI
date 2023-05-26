@@ -51,7 +51,7 @@ def build_tree(data, attributes, parent_attribute=None, parent_value=None):
 def visualize_tree(tree, feature_names, class_names):
     dot = graphviz.Digraph()
     add_nodes(tree, dot, feature_names, class_names)
-    dot.render('decision_treeV2.png', format='png', cleanup=True)
+    dot.render('decision_treev2.png', format='png', cleanup=True)
 
 def add_nodes(tree, dot, feature_names, class_names, parent_node=None, edge_label=None):
     if isinstance(tree, str):
